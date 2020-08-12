@@ -9,7 +9,7 @@ def readme():
 
 setup(
     name="pyffuf",
-    version="0.3",
+    version="0.4",
     description="Simple and fast web fuzzer written in python.",
     long_description=readme(),
     long_description_content_type="text/markdown",

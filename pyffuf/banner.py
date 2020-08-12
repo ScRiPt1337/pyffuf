@@ -12,6 +12,6 @@ class Banner:
   / _ \ \/ / _/ _/_ __/ _/
  / ___/\  / _/ _/ // / _/ 
 /_/    /_/_//_/ \_,_/_/     
-                    version 0.3 (beta)
+                    version 0.4 (beta)
         """
         return data

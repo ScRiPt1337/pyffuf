@@ -22,7 +22,7 @@ class FUZZER:
         self.total = total
 
     async def checkpage(self, html):
-        soup = bs(html, 'lxml')
+        soup = bs(html, 'html.parser')
         try:
             chex = str(soup.select_one('title').text).upper()
             # print(chex)
