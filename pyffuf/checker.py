@@ -4,7 +4,7 @@ import sys
 from datetime import datetime
 
 from clint.textui import puts, colored, indent
-from wordcounter import Counter
+from pyffuf.wordcounter import Counter
 
 class CHECKER:
     def __init__(self, url,wordlist):

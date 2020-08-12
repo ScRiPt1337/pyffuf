@@ -9,8 +9,8 @@ import aiohttp
 from bs4 import BeautifulSoup as bs
 from clint.textui import puts, colored, indent
 
-import banner
-from checker import CHECKER
+from pyffuf.banner import Banner
+from pyffuf.checker import CHECKER
 
 
 class FUZZER:
@@ -88,6 +88,7 @@ class FUZZER:
 
 
 def main():
+    banner = Banner()
     banner.banner()
     parser = argparse.ArgumentParser(
         description='Simple and Fast web fuzzer.')
@@ -106,7 +107,6 @@ def main():
     fuzzer = FUZZER(args.url, args.wordlist, lenword)
     fuzzer.fuzz()
     fuzzer.done()
-
 
 if __name__ == '__main__':
     main()
