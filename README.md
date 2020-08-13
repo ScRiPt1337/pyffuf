@@ -43,7 +43,5 @@ pyffuf Simple and fast web fuzzer written in python
 ### Help
 * pyffuf --help
 
-### Screenshot
-
-![screenshot](https://raw.githubusercontent.com/ScRiPt1337/pyffuf/master/img/ss.png)
+[![asciicast](https://asciinema.org/a/353184.svg)](https://asciinema.org/a/353184)
 
