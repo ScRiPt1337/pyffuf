@@ -7,7 +7,7 @@ Simple and fast web fuzzer written in python
 >>>   / _ \ \/ / _/ _/_ __/ _/
 >>>  / ___/\  / _/ _/ // / _/
 >>> /_/    /_/_//_/ \_,_/_/
->>>                 version 0.1 (beta)
+>>>                 version 0.4 (beta)
 >>>     
 usage: main.py [-h] -u  -w
 
@@ -22,7 +22,7 @@ optional arguments:
 pyffuf Simple and fast web fuzzer written in python
 
 [![Python 3.8](https://img.shields.io/badge/python-3.8-yellow.svg)](https://www.python.org/)
-[![Python 3.8](https://img.shields.io/badge/pyffuf-0.1-red)](https://www.python.org/)
+[![Python 3.8](https://img.shields.io/badge/pyffuf-0.4-red)](https://www.python.org/)
 
 
 ### Requirement
